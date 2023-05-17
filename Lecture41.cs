@@ -12,7 +12,9 @@ class Lecture41
         int answer = Add(5,10);
         int secondAnswer = Add(answer,5);
         Console.WriteLine(secondAnswer);//answer is now 20 not 15
-                Console.ReadLine();
+        
+        Console.WriteLine("Press any key to exit...");
+        Console.ReadKey();
 
         
     }
