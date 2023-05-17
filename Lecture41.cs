@@ -12,6 +12,7 @@ class Lecture41
         int answer = Add(5,10);
         int secondAnswer = Add(answer,5);
         Console.WriteLine(secondAnswer);//answer is now 20 not 15
+                Console.ReadLine();
 
         
     }
@@ -30,7 +31,6 @@ class Lecture41
         //now the user wants to return the answer, they want to do something with it 
         return answer;
     }
-
 
 
 }
